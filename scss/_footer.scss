@@ -1,0 +1,34 @@
+footer {
+  max-width: 1200px;
+  margin: 0px auto;
+  height: 200px;
+  background-color: rgba(214, 255, 214, 0.623);
+  .footer-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  column-gap: 51px;
+
+  .nav-list,
+  .social-media {
+    display: flex;
+    column-gap: 63px;
+  }
+}
+
+.list-item {
+  a {
+    color: $secondaryColor;
+    font-weight: 800;
+    transition: 0.8s ease-in-out;
+    &:hover {
+      background-color: $primaryColor;
+      color: white;
+    }
+  }
+}
