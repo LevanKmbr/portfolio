@@ -9,10 +9,15 @@
       rel="stylesheet"
     />
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/javascript.js" defer></script>
   </head>
   <body class="bg-dark-custom">
     <header class="container py-5 border-bottom border-secondary">
@@ -68,8 +73,8 @@
             <img
               src="/images/linkedin.svg"
               alt="linkedin"
-              class="img-fluid rounded"
-              style="max-width: 200px"
+              class="img-fluid rounded bg-white"
+              style="max-width: 130px"
             />
           </a>
         </div>
@@ -112,11 +117,25 @@
 
     <footer id="contact" class="container py-5 border-top border-secondary">
       <h2 class="mb-3">Get in Touch</h2>
-      <p class="text-muted-custom">Email: levan.kambarashvili@gmail.com</p>
+      <p class="text-muted-custom">
+        Email: <span id="emailText">levan.kambarashvili@gmail.com</span>
+        <i
+          id="copyEmailBtn"
+          class="bi bi-clipboard-data ms-2"
+          style="cursor: pointer"
+          title="Copy email"
+        ></i>
+        <span
+          id="copyMsg"
+          style="display: none; margin-left: 10px; font-size: 0.75rem"
+          >Copied!</span
+        >
+      </p>
       <p class="text-muted-custom">Phone: +995 597 008030</p>
       <p class="text-muted-custom">GitHub: github.com/levankmbr</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <button id="backToTop" title="Go to top">↑</button>
   </body>
 </html>
