@@ -33,7 +33,7 @@ copyEmailBtn.addEventListener("click", () => {
       copyMsg.style.display = "inline";
       setTimeout(() => {
         copyMsg.style.display = "none";
-      }, 2000); // 2 წამში ქრება
+      }, 1500); // 1.5 წამში ქრება
     })
     .catch((err) => {
       console.error("Copy failed:", err);
