@@ -94,12 +94,12 @@ body {
 
 .smoke {
   position: absolute;
-  width: 34px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   background: radial-gradient(
     circle,
-    rgba(200, 200, 200, 0.4) 0%,
-    rgba(200, 200, 200, 0.2) 40%,
+    rgba(200, 200, 200, 0.555) 0%,
+    rgba(200, 200, 200, 0.349) 40%,
     rgba(200, 200, 200, 0) 100%
   );
   border-radius: 50%;
